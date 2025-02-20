@@ -1,0 +1,81 @@
+.projects{
+    margin-bottom: 144px;
+}
+
+
+
+.header-section{
+    margin-bottom: 56px;
+    
+
+}
+
+
+figure{
+    background-color: var(--gray-300);
+    margin: auto;
+    border-radius: 12px;
+}
+
+#container-grid img{
+    width: 306px ;
+    padding: 12px;                       
+    border-radius: 8px;
+   
+}
+
+#container-grid figure:hover{
+    border: 1.5px solid var(--gray-400)
+}
+
+
+    figcaption span{
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: 8px;
+       
+    }
+
+    figcaption p{
+        font: var(--text-sm);
+        color: var(--gray-500); 
+     }
+
+
+     #services{
+        background-color: var(--gray-100);
+        padding: 80px 120px 120px 120px;
+
+        & figure{
+            width: 280px;
+            background-color: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            
+           
+
+        }
+
+        
+
+        & img{
+            width: 48px;
+            height: 48px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        }
+
+        & figcaption{
+            max-width: 280px;
+            display: flex;
+            flex-direction: column;
+            
+            padding: 20px;
+        }
+
+      
+
+     
+
+     
+

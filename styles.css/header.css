@@ -1,0 +1,59 @@
+header{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+.description{
+   max-width: 680px;
+
+   align-self: center;
+ 
+}
+
+.avatar{
+   margin-top: 120px;
+}
+
+
+.code{
+   position: relative;
+   bottom: 27px;
+   left: 33px;
+}
+
+
+h3{
+   font: var(--subtitle);
+   color: var(--gray-500);
+   padding-block:56px 8px ;
+
+   & span{
+      color: var(--red);
+   }
+}
+
+h1{
+   font: var(--title-lg);
+   color: var(--gray-600);
+   padding-bottom: 20px;
+}
+
+p{
+   font: var(--text-sm);
+   color: var(--gray-400);
+   padding-bottom: 80px;
+}
+
+.tags{
+
+   display: flex;
+   justify-content: center;
+   gap: 18px;
+}
+
+.caret{
+  margin-top: 94px;
+   
+}
+
+}

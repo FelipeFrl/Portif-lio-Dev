@@ -1,0 +1,98 @@
+footer{
+    background: url(/assets/Background_Contacts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 750px;
+    margin: auto;
+
+  
+   header{
+        
+    margin-top: 120px;
+     
+   
+
+     & h1{
+        color: var(--purple);
+        font: var(--subtitle);
+    }
+
+    & p{
+        color: var(--gray-500);
+        font: var(--text-md);
+      
+        padding-block: 8px 48px;
+        
+
+    }
+
+
+    a span{
+        background-image: url(/assets/icons/arrow-up-right.svg);
+        width: 28px;
+        height: 22px;
+        display: inline-block;
+        margin-left: auto;
+        
+    }
+
+ 
+}
+
+
+
+}
+
+
+#linkedin{
+    background: url(/assets/icons/linkedin-logo.svg);
+    width: 28px;
+    height: 28px;
+
+
+ 
+}
+
+
+a:hover{
+    border: 1.5px solid var(--blue);
+}
+
+
+a:hover #linkedin{
+    background: url(/assets/icons/linkedin-logo-hover.svg)
+}
+
+
+#instagram{
+    background: url(/assets/icons/instagram-logo.svg);
+    width: 28px;
+    height: 28px;
+
+}
+
+a:hover #instagram{
+    background: url(/assets/icons/instagram-logo-hover.svg)
+}
+
+
+#github{
+    background: url(/assets/icons/github-logo.svg);
+    width: 28px;
+    height: 28px;
+}
+
+a:hover #github{
+    background: url(/assets/icons/github-logo-hover.svg)
+
+}
+#email{
+    background: url(/assets/icons/envelope-simple.svg);
+    width: 28px;
+    height: 28px;
+    }
+
+    a:hover #email{
+        background: url(/assets/icons/envelope-simple-hover.svg)
+    }
